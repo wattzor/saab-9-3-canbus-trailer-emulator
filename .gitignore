@@ -1,0 +1,47 @@
+# Arduino IDE files
+*.ino.hex
+*.ino.elf
+*.ino.map
+*.ino.bin
+*.ino.eep
+*.ino.with_bootloader.hex
+
+# Build artifacts
+build/
+.build/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.sln
+*.vcxproj*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Log files
+*.log
+
+# Personal configuration files
+config.h
+secrets.h
+
+# Documentation build
+docs/_build/
+
+# Test files
+test_results/
+*.test
